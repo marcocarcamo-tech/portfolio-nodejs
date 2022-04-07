@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include ('partials/head.html') %>
+    <title>Professional Portfolio</title>
+</head>
+<body>
+    <%- include ('partials/navigation.html') %>
+    <section id="about" class="about">
+        <div class="about-center">
+            <h1>Acerca de mí</h1>
+            
+            <img  src="img/IMG_2380.jpg" alt="profile-photo">
+            
+            <p>Soy estudiante de ingeniería en sistemas y actualmente me preparo para hacer una carrera como desarrollador web, especialmente me interesa el desarrollo backend, pero he estudiado también tecnologías para desarrollo frontend. Me encanta aprender cosas nuevas constantemente y conocer tecnologías nuevas. Vivo en la Ciudad de México, pero siempre estoy abierto a nuevas oportunidades.</p>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="skills-center">
+            <h1>Skills</h1>
+            <p>Estas son alguna de las habilidades técnicas que me he dedicado a desarrollar</p>
+            <ul>
+                <li><p>HTML 5</p></li>
+                <li><p>CSS 3</p></li>
+                <li><p>Javascript (EcmaScript 6)</p></li>
+                <li><p>React.js</p></li>
+                <li><p>Node.js</p></li>
+                <li><p>Sass</p></li>
+                <li><p>Git y github</p></li>
+                <li><p>MySQL</p></li>
+                <li><p>Unity</p></li>
+                <li><p>Python 3</p></li>
+                <li><p>Java</p></li>
+            </ul>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="portfolio-center">
+            <h1>Portafolio de poryectos</h1>
+            <p>Aquí pueden ver los proyectos que he realizado hasta el momento, con una breve descripción para explicar el propósito de cada uno, así como las tecnologías que han sido utilizadas para su desarrollo.</p>
+        </div>
+        <div class="portfolio-blocks">
+            <div class="block">
+                <h2>Solfeo Fácil</h2>
+                <img class="block-img" src="img/pexels-tatyana-8658962.jpg" alt="project-image">
+                <p>Esta página fue desarrollada como una idea para que la gente interesada en aprender música tuviera al alcance lecciones de lectura de notas musicales de alta calidad. Fue desarrollada de la mano de un pedagogo musical. Se utilizó HTML, CSS, JavaScript, sin frameworks para el frontend y NodeJs para el backend</p>
+                <div>
+                    <a href="/">Proyecto</a>
+                    <a href="/">Repositorio</a>
+                </div>
+            </div>
+            <div class="block">
+                <h2>Lista del quehacer</h2>
+                <img class="block-img" src="img/pexels-tatyana-8658962.jpg" alt="project-image">
+                <p>Es una aplicación que te permite listar tareas por realizar, es posible añadir nuevas tareas o "quehaceres", marcarlas como realizadas y eliminarlas de la lista. Esta aplicación fue creada utilizando React.js para el Front-End y Node.js para el backend.</p>
+                <div>
+                    <a href="/">Proyecto</a>
+                    <a href="/">Repositorio</a>
+                </div>
+            </div>
+            <div class="block">
+                <h2>Bistro Web</h2>
+                <img class="block-img" src="img/pexels-tatyana-8658962.jpg" alt="project-image">
+                <p>Es un pequeño proyecto para perfeccionar el uso de CSS grid y explorar todas sus posibilidades, además de la página gastronómica ficticia hay otros retos para el desarrollo de esta importante habilidad frontend.</p>
+                <div>
+                    <a href="/">Proyecto</a>
+                    <a href="/">Repositorio</a>
+                </div>
+            </div>
+            <div class="block">
+                <h2>Video Chill</h2>
+                <img class="block-img" src="img/pexels-tatyana-8658962.jpg" alt="project-image">
+                <p>Es una página para ver videos como imitación de un sitio de streaming web. Fue realizado con HTML, CSS y Javascript sin frameworks en el forntend. En el backend se usó Node.js para configurar las rutas y el direccionamiento a videos externos.</p>
+                <div>
+                    <a href="/">Proyecto</a>
+                    <a href="/">Repositorio</a>
+                </div>
+            </div>
+            <div class="block">
+                <h2>WebCalc</h2>
+                <img class="block-img" src="img/pexels-tatyana-8658962.jpg" alt="project-image">
+                <p>Son varios miniproyectos que realizan diferentes cálculos como, áreas de figuras, porcentajes, descuentos, etc. Estas calculadoras se hicieron principalmente como práctica de las bases del lenguaje Javascript.</p>
+                <div>
+                    <a href="/">Proyecto</a>
+                    <a href="/">Repositorio</a>
+                </div>
+            </div>
+            <div class="block">
+                <h2>Cuco's Quest</h2>
+                <img class="block-img" src="img/pexels-tatyana-8658962.jpg" alt="project-image">
+                <p>Es un videojuego 2D de plataformas, el objetivo es recolectar objetos que son robados al perro guerrero Cuco. Fue creado con el motor Unity y programado en C#. Este proyecto es multidisciplinar y es un proyecto personal importante, ya que la totalidad de los assets como son scripts, sprites, sonidos ambientales, escenarios, animaciones y música fueron creados por mí. </p>
+                <div>
+                    <a href="/">Proyecto</a>
+                    <a href="/">Repositorio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="contact-center">
+            <h1>Contacto</h1>
+            <p>Para cualquier inquietud, es posible contactarme a través del siguiente formulario</p>
+            <form>
+                <input class="input-name" type="text" placeholder="Nombre">
+                <input class="input-mail" type="text" placeholder="Correo">
+                <input class="input-msg" type="text" placeholder="Mensaje">
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-center">
+            <p>Página desarrollada por Marco Cárcamo</p>
+        </div>
+    </footer>
+</body>
+</html>
